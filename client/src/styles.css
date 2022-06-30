@@ -39,6 +39,13 @@ body{
     padding: 50px;
     background-color:cadetblue;
 }
+.card{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: top 1px;
+}
+
 form{
     display: flex;
     justify-content: center;
@@ -49,6 +56,11 @@ form{
     background-color: cadetblue;
     padding: 5vh;
 }
+section{
+    display: flex;
+    justify-content:center;
+    flex-wrap: nowrap;
+}
 .click{
    background-color:#0000BF;
 }
@@ -57,4 +69,7 @@ form{
 }
 .nav li.hover{
     background-color:#777;
+}
+div{
+    justify-content: center;
 }

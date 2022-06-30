@@ -4,7 +4,9 @@ import './index.css';
 //import App from './App';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './component/Home';
-import Navigation from './component/Navigation';
+import Navigation from './component/NavBar';
+import SignIn from './component/SignIn';
+import Salle from './component/Salle'
 
 
 
@@ -15,7 +17,8 @@ root.render(
   <Navigation />    
     <Routes>
       <Route path="/home" element={<Home />} />
-      
+      <Route path="/signin" element={<SignIn />} />
+      <Route path="/salles" element={<Salle />} />
     </Routes>
   </Router>
   </React.StrictMode>
