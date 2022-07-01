@@ -9,7 +9,7 @@ try {
 const newRoom = new Room({
   name : req.body.name,
   price: req.body.price,
-  capacité: req.body.capacité,
+  capacity: req.body.capacity,
   description: req.body.description,
   ageLimit   :req.body.ageLimit
 });
