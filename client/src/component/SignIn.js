@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 
 export default function SignIn() {
 const [errorMessages, setErrorMessages] = useState({});
-  const [isSubmitted, setIsSubmitted] = useState(false);
+const [isSubmitted, setIsSubmitted] = useState(false);
 
   // User Login info
   const database = [
