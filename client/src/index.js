@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './component/Home';
 import Navigation from './component/NavBar';
 import SignIn from './component/SignIn';
-import Salle from './component/Salle'
+import Room from './component/Room'
 
 
 
@@ -18,8 +18,8 @@ root.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/signin" element={<SignIn />} />
-      {/*<Route path="/salles/:id" element={<Salle />} />*/}
-      <Route path="/salles/" element={<Salle />} />
+      {/*<Route path="/salles/:id" element={<Room />} />*/}
+      <Route path="/salles/" element={<Room />} />
     </Routes>
   </Router>
   </React.StrictMode>

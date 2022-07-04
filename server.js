@@ -4,6 +4,7 @@ import cors from 'cors'
 import mongoose from 'mongoose'
 import userRoutes from "./routes/user.js"
 import roomRoutes from "./routes/room.js"
+import cors from 'cors'
 
 const app = express();
 const PORT = 5000
