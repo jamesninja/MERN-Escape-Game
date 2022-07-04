@@ -1,9 +1,8 @@
 
 import  express  from "express";
-import mongoose from "mongoose";
 const router = express.Router();
 import User from "../models/users.js"
-import Room from "../models/rooms.js"
+
 
 // **Create**/////////////////////////////////////////////////////
 router.post("/", async (req, res) => {
