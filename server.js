@@ -3,12 +3,14 @@ import express from 'express'
 import mongoose from 'mongoose'
 import userRoutes from "./routes/user.js"
 import roomRoutes from "./routes/room.js"
+import cors from 'cors'
 
 const app = express();
 const PORT = 5000
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors())
 
 app.use("/users", userRoutes)
 app.use("/rooms", roomRoutes)

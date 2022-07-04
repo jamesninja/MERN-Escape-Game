@@ -30,11 +30,7 @@ export default function Home() {
                 return(
                     <div>
                         {/* <p>{room.image}</p><br/> */}
-                        <p>{room.name}</p><br/>
-                        <p>{room.price}</p><br/>
-                        <p>{room.capacity}</p><br/>
-                        <p>{room.description}</p><br/>
-                        <p>{room.ageLimit}</p><br/>
+                        <p>{room.name}</p>
                     </div>
                 )
               })}
