@@ -26,11 +26,15 @@ export default function NavBar() {
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           <Button>
-          <Link to="/">Home</Link>
+          <Link to="/" className="link" >Home</Link>
           </Button>
           </Typography>
           <Button>
-            <Link to="/signin">connection</Link>
+            <Link to="/signin" className="link" >Historique</Link>
+          </Button>
+          <Button>
+            <Link to="/bookings" className="link">connection</Link>
+            
           </Button>
         </Toolbar>
       </AppBar>

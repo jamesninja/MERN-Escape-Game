@@ -4,6 +4,9 @@
 body{
     margin:0;
 }
+.link{
+    color: #FFF;
+}
 
 .nav{
     background-color: #0000BF;
@@ -46,15 +49,15 @@ body{
     padding: top 1px;
 }
 
-form{
+.connexion{
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 10vh;
-    margin-right: 30vh;
+    margin-right: 10vh;
     margin-left: 30vh;
     background-color: cadetblue;
-    padding: 5vh;
+    padding: 15vh;
 }
 section{
     display: flex;
